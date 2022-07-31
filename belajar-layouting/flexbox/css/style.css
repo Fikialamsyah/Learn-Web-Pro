@@ -1,0 +1,83 @@
+.kotak {
+    padding: 30px;
+    background: coral;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container-order{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-order #item1 {
+    order: 3;
+}
+
+.container-order #item2 {
+    order: 3;
+}
+
+
+.container-order #item3 {
+    order: 10;
+}
+
+
+.container-order #item4 {
+    order: 3;
+}
+
+.container-order #item5 {
+    order: 3;
+}
+
+.container-flex-grow {
+    display: flex;
+}
+
+.container-flex-grow #item1 {
+    flex-grow: 2;
+}
+
+.container-flex-grow #item2 {
+    flex-grow: 1;
+}
+
+.container-flex-grow #item3 {
+    flex-grow: 3;
+}
+
+
+.container-flex-basis {
+    display: flex;
+}
+
+.container-flex-basis #item1 {
+    flex-basis: 200px;
+}
+
+.container-flex-basis #item2 {
+    flex-basis: 100px;
+}
+
+.container-flex-basis #item3 {
+    flex-basis: 200px;
+}
+
+
+.container-align-self {
+    display: flex;
+}
+
+.container-align-self #item1 {
+    align-self: flex-start;
+}
+
+.container-align-self #item2 {
+    align-self: center;
+}
+
+.container-align-self #item3 {
+    align-self: flex-end;
+}
